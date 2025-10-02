@@ -1,51 +1,59 @@
 AI Resume Matcher Analyzer
-[![GitHub stars](https://img.shields.io/github/stars/adi334/AI-RESUME-MATCHER-ANALYZER?style=social(https://github.com/adi334/AI-RESUME-MATCHER-ANALYZ AI-powered web application that matches candidate resumes with job descriptions to deliver precise compatibility scores and highlight skill gaps — accelerating and improving recruitment decisions.
+A smart web app that helps match candidate resumes with job descriptions to find the best fit quickly and easily.
 
-🚀 Features
-Resume Extraction: Supports multiple resume formats for seamless parsing.
+What it does
+Takes resumes in common formats and reads their content.
 
-Job Description Insights: Extracts key skills and requirements.
+Analyzes job descriptions to find required skills.
 
-Smart Matching: Uses NLP & ML to compute similarity scores between resumes and job descriptions.
+Compares resumes and job descriptions to give a match score.
 
-Skill Gap Highlighting: Pinpoints missing skills in resumes.
+Shows which skills are missing from resumes.
 
-Batch Processing: Compare multiple resumes simultaneously.
+Allows checking many resumes at the same time.
 
-Clean & Interactive UI: User-friendly interface for effortless uploads and visualized results.
+Has a simple, user-friendly web interface.
 
-🛠️ Technologies
-Python 3 & Flask for backend API and server
+Technologies used
+Python 3 and Flask (for backend and website)
 
-State-of-the-art NLP & ML libraries including PyTorch, scikit-learn
+Natural Language Processing (NLP) and Machine Learning libraries
 
-Modern HTML5 and CSS3 for responsive frontend
+HTML and CSS for the frontend design
 
-Runs locally or deployable on cloud platforms (Render, Heroku, etc.)
-
-⚡ Quick Start
-bash
-# Clone repo
+How to set up
+Clone the repository:
 git clone https://github.com/adi334/AI-RESUME-MATCHER-ANALYZER.git
+
+Go to the project folder:
 cd AI-RESUME-MATCHER-ANALYZER
 
-# Setup virtual environment
+Create a virtual environment:
 python -m venv venv
 
-# Activate venv (Windows)
-venv\Scripts\activate
+Activate the virtual environment:
 
-# or (Mac/Linux)
-source venv/bin/activate
+Windows: venv\Scripts\activate
 
-# Install dependencies
+Mac/Linux: source venv/bin/activate
+
+Install the required packages:
 pip install -r requirements.txt
 
-# Run the app
+How to run
+Start the app by running:
 python app.py
-Open your browser and go to http://localhost:5000
 
-🤝 Contributing
-Contributions and suggestions are welcome!
-Fork the repo, create a new branch, and submit pull requests.
-For major changes, please open an issue to discuss first.
+Open your browser and go to:
+http://localhost:5000
+
+Upload resumes and job descriptions to see the match results.
+
+How to contribute
+Fork this repo.
+
+Make changes in your own branch.
+
+Send a pull request.
+
+Open an issue if you want to discuss a big change first.
