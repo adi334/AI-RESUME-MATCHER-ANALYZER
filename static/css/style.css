@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(45deg, #283e51, #485563);
+  color: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding-top: 40px;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+h2 {
+  color: #f9fafb;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #00aaff;
+  border-color: #00aaff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0077cc;
+  border-color: #0077cc;
+}
+
+.list-group-item {
+  background-color: #374151;
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  color: #e0e7ff;
+}
+
+.badge-primary {
+  background-color: #22c55e;
+  font-size: 1rem;
+}
+
+small {
+  color: #a5b4fc;
+}
+
+.btn-secondary {
+  background-color: #6b7280;
+  border-color: #6b7280;
+}
+
+.btn-secondary:hover {
+  background-color: #4b5563;
+  border-color: #4b5563;
+}

@@ -1,0 +1,14 @@
+Jane Smith
+Email: jane.smith@example.com
+
+Professional Summary:
+Full-stack developer with 4 years of experience in Python, Node.js, and React.js.
+
+Experience:
+- Built APIs with Flask and Express.
+- Developed user-friendly interfaces using React.
+- Experienced in cloud deployment using AWS and Docker.
+- Participated in daily Agile standups and sprint planning.
+
+Education:
+B.Tech in Information Technology, ABC Institute.

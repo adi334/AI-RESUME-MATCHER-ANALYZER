@@ -1,0 +1,14 @@
+Michael Johnson
+Email: michael.johnson@example.com
+
+Summary:
+Software engineer focused on backend services using Python and JavaScript.
+
+Experience:
+- Created scalable backend APIs using Django REST Framework.
+- Integrated third-party services and databases.
+- Automated deployment pipelines with Jenkins.
+- Worked in Scrum teams on product development.
+
+Education:
+Computer Science Bachelor's Degree, DEF University.

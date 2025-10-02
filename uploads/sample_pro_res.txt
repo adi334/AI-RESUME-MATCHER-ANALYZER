@@ -1,0 +1,14 @@
+John Doe
+Email: john.doe@example.com | Phone: 123-456-7890
+
+Professional Summary:
+Experienced Software Engineer with over 4 years in full-stack development. Skilled in Python, JavaScript, and REST API design.
+
+Work Experience:
+- Developed scalable web applications using Python and Django.
+- Created front-end interfaces with React.js and integrated RESTful services.
+- Collaborated with teams on Agile projects.
+- Deployed applications to AWS cloud infrastructure.
+
+Education:
+Bachelor of Science in Computer Science, XYZ University, 2018

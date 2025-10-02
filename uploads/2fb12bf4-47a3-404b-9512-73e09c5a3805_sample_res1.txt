@@ -1,0 +1,14 @@
+John Doe
+Email: john.doe@example.com
+
+Summary:
+Experienced software engineer skilled in Python, JavaScript, and REST API development.
+
+Experience:
+- Developed web applications using Django and React.
+- Designed RESTful services consumed by frontend apps.
+- Collaborated in Agile teams and participated in code reviews.
+- Deployed applications on AWS.
+
+Education:
+B.Sc. Computer Science, University XYZ.

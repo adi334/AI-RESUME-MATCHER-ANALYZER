@@ -1,0 +1,14 @@
+Emily Davis
+Email: emily.davis@example.com
+
+Profile:
+Passionate developer with expertise in Python, JavaScript, and cloud infrastructure.
+
+Experience:
+- Designed and maintained REST APIs in Flask.
+- Worked on frontend development with Angular.
+- Managed deployments on AWS cloud.
+- Collaborated with DevOps and QA teams in Agile environment.
+
+Education:
+B.Sc. in Software Engineering, GHI College.
