@@ -3,6 +3,7 @@ import os
 import uuid  # to avoid filename collisions
 from resume_matcher import extract_text, match_resumes, extract_keywords
 
+
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
@@ -10,9 +11,11 @@ app.config['UPLOAD_FOLDER'] = 'uploads/'
 if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])
 
+
 @app.route("/")
 def index():
     return render_template('matchresume.html')
+
 
 @app.route('/matcher', methods=['POST'])
 def matcher():
@@ -53,7 +56,7 @@ def matcher():
         top_indices = similarities.argsort()[-5:][::-1]
         top_resumes = [filenames[i] for i in top_indices]
         # Convert similarity to percentage score out of 100
-        similarity_scores = [round(similarities[i] * 100, 2) for i in top_indices]  
+        similarity_scores = [round(similarities[i] * 100, 2) for i in top_indices]
         missing_skills_top = [missing_skills_list[i] for i in top_indices]
 
         return render_template(
@@ -67,5 +70,8 @@ def matcher():
 
     return render_template('matchresume.html')
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
